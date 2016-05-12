@@ -10,10 +10,11 @@ public class Test {
   public static void main(String[] args) {
     
     
-      System.out.println(OP_READ);
-      System.out.println(OP_WRITE);
-      System.out.println(OP_CONNECT);
-      System.out.println(OP_ACCEPT);
+      System.out.println(OP_READ + "||" + Integer.toBinaryString(OP_READ));
+      System.out.println(OP_WRITE+ "||" + Integer.toBinaryString(OP_WRITE));
+      System.out.println(OP_CONNECT+ "||" + Integer.toBinaryString(OP_CONNECT));
+      System.out.println(OP_ACCEPT+ "||" + Integer.toBinaryString(OP_ACCEPT));
+     
   }
 
 }
