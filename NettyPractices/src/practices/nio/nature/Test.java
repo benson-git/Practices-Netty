@@ -14,6 +14,13 @@ public class Test {
       System.out.println(OP_WRITE+ "||" + Integer.toBinaryString(OP_WRITE));
       System.out.println(OP_CONNECT+ "||" + Integer.toBinaryString(OP_CONNECT));
       System.out.println(OP_ACCEPT+ "||" + Integer.toBinaryString(OP_ACCEPT));
+      
+      int a = 1, b=10;
+      
+      int c = a + b >>> 1;
+  
+      System.out.println(c+ "||" + Integer.toBinaryString(c));
+      System.out.println(a+b+ "||" + Integer.toBinaryString(a+b));
      
   }
 
